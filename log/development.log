@@ -1535,3 +1535,154 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 14:53:55 -0500
+
+
+Started GET "/search" for ::1 at 2019-06-07 12:26:28 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 383ms (Views: 373.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2019-06-07 12:26:29 -0400
+
+
+Started GET "/search" for ::1 at 2019-06-07 12:32:08 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-07 12:32:09 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-07 12:32:16 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-07 12:32:29 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 194ms (Views: 185.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-07 12:34:38 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-07 12:34:41 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-07 12:34:44 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-07 12:34:45 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 26ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-07 12:43:56 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 186ms (Views: 177.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-07 12:44:00 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hWZkBmBrvggROUlnX33i1/tbWE7nInO7V7eNyPgpMtvlwDDyGEOOBNlYFVULqCfG1B5GCnNNWrf52/o4jyCfkA==", "zipcode"=>"11216", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 1357ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-06-07 12:44:11 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oOGtLKhHsWPtMGHVVrAT1s6FlxAzyFLqTP5PhsYdxzXAR/nY0G+BbyVRPecCZdbH4cCJVKene+bikjh2sRRqfg==", "venue_id"=>"56f07966498e18f9b8ec1522", "tip"=>"love the brew", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 81ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-06-07 12:44:11 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 136ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-07 12:45:51 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-07 12:45:54 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"anzb7tAdFLX72WZ2kFh/Ao/DtrdcOZ6PdMPiUzChwL4K2o8aqDUkuTO4OkTEjboToIao88hWt4Par5WjR6ht9Q==", "zipcode"=>"11206", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 1326ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-06-07 12:46:00 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YB2W4ttbAA+pmesAsDDENlezXEBP3PTYT6TpNSWp5nIAu8IWo3MwA2H4tzLk5QEnePZCBNuz3dThyJ7FUqBLOQ==", "venue_id"=>"4a5a2472f964a520c6b91fe3", "tip"=>"looky here", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 87ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-06-07 12:46:00 -0400
+Processing by TipsController#index as HTML
+Completed 500 Internal Server Error in 571955ms (ActiveRecord: 0.0ms)
+
+SystemExit (exit):
+  app/controllers/tips_controller.rb:20:in `index'
+
+
+  Rendered /Users/donotdestroy/.rbenv/versions/2.3.8/lib/ruby/gems/2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (90.6ms)
+  Rendered /Users/donotdestroy/.rbenv/versions/2.3.8/lib/ruby/gems/2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (27.2ms)
+  Rendered /Users/donotdestroy/.rbenv/versions/2.3.8/lib/ruby/gems/2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /Users/donotdestroy/.rbenv/versions/2.3.8/lib/ruby/gems/2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (214.5ms)
+  Rendered /Users/donotdestroy/.rbenv/versions/2.3.8/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /Users/donotdestroy/.rbenv/versions/2.3.8/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/donotdestroy/.rbenv/versions/2.3.8/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/donotdestroy/.rbenv/versions/2.3.8/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/donotdestroy/.rbenv/versions/2.3.8/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (129.1ms)
+  Rendered /Users/donotdestroy/.rbenv/versions/2.3.8/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/donotdestroy/.rbenv/versions/2.3.8/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/donotdestroy/.rbenv/versions/2.3.8/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (247.7ms)
+
+
+Started GET "/search" for ::1 at 2019-06-07 12:55:43 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 193ms (Views: 184.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-07 12:55:50 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KP11rv0GtbNIAuV2dH+ebnnhLmYkSs/A5vPJkvGUFYZIWyFahS6Fv4BjuUQgqlt/VqQwIrAl5sxIn75ihp24zQ==", "zipcode"=>"11206", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 1322ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for ::1 at 2019-06-07 12:56:02 -0400
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pCb5KxwLv5JKJ0+vQ1lE+7ExcVT6hvFMUof9wa0gK+/EgK3fZCOPnoJGE50XjIHqnnRvEG7p2ED864ox2imGpA==", "venue_id"=>"4b083bbaf964a520ee0623e3", "tip"=>"love johns donuts", "commit"=>"Add Tip"}
+Redirected to http://localhost:3000/tips
+Completed 302 Found in 128ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for ::1 at 2019-06-07 12:56:03 -0400
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 167ms (Views: 27.2ms | ActiveRecord: 0.0ms)
